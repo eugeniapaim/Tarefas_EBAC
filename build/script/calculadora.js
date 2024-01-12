@@ -1,0 +1,1 @@
+function calculadora(){var a,e;let r=0;switch(a=prompt("Digite o primeiro número:"),e=prompt("Digite o segundo número:"),prompt("Digite a operação (+, -, *, /):")){case"+":r=a+e;break;case"-":r=a-e;break;case"*":r=a*e;break;case"/":r=a/e;break;default:return void alert("Operação inválida!")}alert("O resultado é: "+r)}calculadora();
